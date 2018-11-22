@@ -168,6 +168,7 @@
     <Compile Include="Models\Conta.cs" />
     <Compile Include="Models\ContaContabilEmprestimo.cs" />
     <Compile Include="Models\Endereco.cs" />
+    <Compile Include="Models\Pagamento.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View\ViewCliente.aspx.cs">
       <DependentUpon>ViewCliente.aspx</DependentUpon>
