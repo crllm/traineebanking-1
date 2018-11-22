@@ -71,6 +71,91 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\background.png" />
+    <Content Include="Images\Background_cliente.png" />
+    <Content Include="Images\icone_alteraçãoDadosCadastrais.png" />
+    <Content Include="Images\icone_emprestimos.png" />
+    <Content Include="Images\icone_extrato.png" />
+    <Content Include="Images\icone_investimento.png" />
+    <Content Include="Images\icone_pagamento.png" />
+    <Content Include="Images\icone_saldo.png" />
+    <Content Include="Images\left-arrow.png" />
+    <Content Include="Images\login_bk.jpg" />
+    <Content Include="Images\logout.png" />
+    <Content Include="Images\Logo_TB_Azul.png" />
+    <Content Include="Images\return.png" />
+    <Content Include="Images\TB_logo.png" />
+    <Content Include="View\Content\Cliente\background.css" />
+    <Content Include="View\Content\css\bootstrap-responsive.css" />
+    <Content Include="View\Content\css\bootstrap-responsive.min.css" />
+    <Content Include="View\Content\css\bootstrap.css" />
+    <Content Include="View\Content\css\bootstrap.min.css" />
+    <Content Include="View\Content\dist\css\bootstrap-grid.css" />
+    <Content Include="View\Content\dist\css\bootstrap-grid.min.css" />
+    <Content Include="View\Content\dist\css\bootstrap-reboot.css" />
+    <Content Include="View\Content\dist\css\bootstrap-reboot.min.css" />
+    <Content Include="View\Content\dist\css\bootstrap.css" />
+    <Content Include="View\Content\dist\css\bootstrap.min.css" />
+    <Content Include="View\Content\dist\js\bootstrap.bundle.js" />
+    <Content Include="View\Content\dist\js\bootstrap.bundle.min.js" />
+    <Content Include="View\Content\dist\js\bootstrap.js" />
+    <Content Include="View\Content\dist\js\bootstrap.min.js" />
+    <Content Include="View\Content\Fonts\glyphicons-halflings-white.png" />
+    <Content Include="View\Content\Fonts\glyphicons-halflings.png" />
+    <Content Include="View\Content\Home\background.css" />
+    <Content Include="View\Content\js\dist\alert.js" />
+    <Content Include="View\Content\js\dist\button.js" />
+    <Content Include="View\Content\js\dist\carousel.js" />
+    <Content Include="View\Content\js\dist\collapse.js" />
+    <Content Include="View\Content\js\dist\dropdown.js" />
+    <Content Include="View\Content\js\dist\index.js" />
+    <Content Include="View\Content\js\dist\modal.js" />
+    <Content Include="View\Content\js\dist\popover.js" />
+    <Content Include="View\Content\js\dist\scrollspy.js" />
+    <Content Include="View\Content\js\dist\tab.js" />
+    <Content Include="View\Content\js\dist\tooltip.js" />
+    <Content Include="View\Content\js\dist\util.js" />
+    <Content Include="View\Content\js\src\alert.js" />
+    <Content Include="View\Content\js\src\button.js" />
+    <Content Include="View\Content\js\src\carousel.js" />
+    <Content Include="View\Content\js\src\collapse.js" />
+    <Content Include="View\Content\js\src\dropdown.js" />
+    <Content Include="View\Content\js\src\index.js" />
+    <Content Include="View\Content\js\src\modal.js" />
+    <Content Include="View\Content\js\src\popover.js" />
+    <Content Include="View\Content\js\src\scrollspy.js" />
+    <Content Include="View\Content\js\src\tab.js" />
+    <Content Include="View\Content\js\src\tooltip.js" />
+    <Content Include="View\Content\js\src\util.js" />
+    <Content Include="View\Content\js\tests\index.html" />
+    <Content Include="View\Content\js\tests\karma-bundle.conf.js" />
+    <Content Include="View\Content\js\tests\karma.conf.js" />
+    <Content Include="View\Content\js\tests\unit\alert.js" />
+    <Content Include="View\Content\js\tests\unit\button.js" />
+    <Content Include="View\Content\js\tests\unit\carousel.js" />
+    <Content Include="View\Content\js\tests\unit\collapse.js" />
+    <Content Include="View\Content\js\tests\unit\dropdown.js" />
+    <Content Include="View\Content\js\tests\unit\modal.js" />
+    <Content Include="View\Content\js\tests\unit\popover.js" />
+    <Content Include="View\Content\js\tests\unit\scrollspy.js" />
+    <Content Include="View\Content\js\tests\unit\tab.js" />
+    <Content Include="View\Content\js\tests\unit\tooltip.js" />
+    <Content Include="View\Content\js\tests\unit\util.js" />
+    <Content Include="View\Content\js\tests\visual\alert.html" />
+    <Content Include="View\Content\js\tests\visual\button.html" />
+    <Content Include="View\Content\js\tests\visual\carousel.html" />
+    <Content Include="View\Content\js\tests\visual\collapse.html" />
+    <Content Include="View\Content\js\tests\visual\dropdown.html" />
+    <Content Include="View\Content\js\tests\visual\modal.html" />
+    <Content Include="View\Content\js\tests\visual\popover.html" />
+    <Content Include="View\Content\js\tests\visual\scrollspy.html" />
+    <Content Include="View\Content\js\tests\visual\tab.html" />
+    <Content Include="View\Content\js\tests\visual\tooltip.html" />
+    <Content Include="View\Content\Login\background.css" />
+    <Content Include="View\Content\navbar.css" />
+    <Content Include="View\Content\signin.css" />
+    <Content Include="View\JS\Mascara.js" />
+    <Content Include="View\ViewLogin.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -81,9 +166,40 @@
     <Compile Include="Models\Conta.cs" />
     <Compile Include="Models\Endereco.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\ViewLogin.aspx.cs">
+      <DependentUpon>ViewLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\ViewLogin.aspx.designer.cs">
+      <DependentUpon>ViewLogin.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="View\Content\dist\css\bootstrap-grid.css.map" />
+    <Content Include="View\Content\dist\css\bootstrap-grid.min.css.map" />
+    <Content Include="View\Content\dist\css\bootstrap-reboot.css.map" />
+    <Content Include="View\Content\dist\css\bootstrap-reboot.min.css.map" />
+    <Content Include="View\Content\dist\css\bootstrap.css.map" />
+    <Content Include="View\Content\dist\css\bootstrap.min.css.map" />
+    <Content Include="View\Content\dist\js\bootstrap.bundle.js.map" />
+    <Content Include="View\Content\dist\js\bootstrap.bundle.min.js.map" />
+    <Content Include="View\Content\dist\js\bootstrap.js.map" />
+    <Content Include="View\Content\dist\js\bootstrap.min.js.map" />
+    <Content Include="View\Content\js\dist\alert.js.map" />
+    <Content Include="View\Content\js\dist\button.js.map" />
+    <Content Include="View\Content\js\dist\carousel.js.map" />
+    <Content Include="View\Content\js\dist\collapse.js.map" />
+    <Content Include="View\Content\js\dist\dropdown.js.map" />
+    <Content Include="View\Content\js\dist\index.js.map" />
+    <Content Include="View\Content\js\dist\modal.js.map" />
+    <Content Include="View\Content\js\dist\popover.js.map" />
+    <Content Include="View\Content\js\dist\scrollspy.js.map" />
+    <Content Include="View\Content\js\dist\tab.js.map" />
+    <Content Include="View\Content\js\dist\tooltip.js.map" />
+    <Content Include="View\Content\js\dist\util.js.map" />
+    <Content Include="View\Content\js\tests\README.md" />
+    <Content Include="View\Content\js\tests\unit\.eslintrc.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -91,10 +207,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Images\" />
-    <Folder Include="View\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

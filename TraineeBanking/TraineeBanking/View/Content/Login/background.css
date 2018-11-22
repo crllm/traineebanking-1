@@ -1,0 +1,45 @@
+﻿body {
+    background-image: url('../../../Images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fundoPreto {
+    background-color: black;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 290px;
+}
+
+.background{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.forma {
+    float: left !important;
+    width: 30%;
+    height: 35px !important;
+}
+
+.formc {
+    float: right !important;
+    width: 65%;
+    height: 35px !important;
+}
+
+.forms {
+    float: left !important;
+    width: 65%;
+    height: 35px !important;
+    margin-top: 10px;
+}
+
+.btna {
+    float: right !important;
+    width: 30% !important;
+    margin-top: 10px;
+}
+

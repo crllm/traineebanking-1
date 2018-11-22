@@ -1,0 +1,31 @@
+﻿body {
+    background-image: url(../../../Images/Background_cliente.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fundoCinza {
+    background-color: #AEA4A4;
+    background: rgba(174, 164, 164, 0.74);
+    width: inherit;
+    height: 209px;
+}
+
+.formTitulo {
+    text-align: center;
+    font-family: Gabriola;
+    font-size: 120px;
+}
+
+h1 {
+    color: black;
+    font-family: Gabriola;
+    font-size: 120px;
+
+}
+p {
+    color: black;
+    font-family: 'SF UI Text';
+    font-size: 25px;
+}
+
