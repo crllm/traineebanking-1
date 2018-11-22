@@ -13,5 +13,15 @@ namespace TraineeBanking.View
         {
 
         }
+
+        protected void iconeDadosCadastrais_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("~/View/ViewCliente.aspx");
+        }
+
+        protected void btnLogout_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/View/ViewLogin.aspx");
+        }
     }
 }

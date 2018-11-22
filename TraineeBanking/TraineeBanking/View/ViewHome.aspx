@@ -59,7 +59,7 @@
             <div class="text-center">
 
                 <div>
-                    <asp:ImageButton ID="iconeDadosCadastrais" runat="server" ImageUrl="~/Images/icone_alteraçãoDadosCadastrais.png" Width="150px" />
+                    <asp:ImageButton ID="iconeDadosCadastrais" runat="server" ImageUrl="~/Images/icone_alteraçãoDadosCadastrais.png" Width="150px" OnClick="iconeDadosCadastrais_Click" />
                     <asp:Label ID="lblAlterarDados" runat="server" Text="Alterar dados"></asp:Label>
                     <br />
                     <asp:Label ID="lblCadastrais" runat="server" Text="Cadastrais"></asp:Label>
